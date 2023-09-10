@@ -1,0 +1,62 @@
+                #contact{
+                     text-shadow:none;
+                     margin: 0 auto;
+                     height:50%; 
+                     width:47%; 
+                     bottom: 20%;   
+                     right: 44.5%;
+                     top: 30%;
+                     position: fixed;
+                     visibility: hidden;
+                     background-color:lightgray;
+                     border-radius: 0em;
+                     box-shadow: 5px 5px 5px  dimgray;
+                 }
+                 #tab{
+                     background-color:  lightgrey;
+                     width: 100%; 
+                     box-shadow: -5px 0px 5px  dimgray;
+                 }
+                 #tab table{
+                     width: 100%;
+                 }
+                 #tab table th{
+                     background-color:black;
+                     color:white;
+                 }
+                 #tabl{
+                     background-color:  lightgrey;
+                     width: 100%; 
+                     border-radius: 0em 1em 0em 0em; 
+                     float: right;
+                 }
+                 #tabl table{
+                     width: 100%; 
+                 }
+                 #tabl table th{
+                     background-color:black;
+                     color:white; 
+                     padding-bottom: 10px;
+                 }
+                  #about{
+                     text-shadow:none; 
+                     margin: 0 auto;  
+                     height:50%; 
+                     width:50%; 
+                     bottom: 20%;   
+                     right: 34.3%;
+                     position: fixed;
+                     visibility: hidden;
+                     background-color:white;
+                     border-radius: 0em;
+                     box-shadow: -5px 5px 5px  dimgray;
+                 }
+                 #tabABT{
+                     background-color:  lightgrey;
+                     width: 100%;
+                     height: 100%;
+                     border-radius: 0em 0em 0em 0em;
+                     float: left;
+                     font-size: 16px;
+                 }
+                 

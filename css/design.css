@@ -1,0 +1,183 @@
+.container{margin: 0 auto; 
+          width: 90%; 
+          height: 100%; 
+          border: 1px solid whitesmoke;
+}
+.header{width: 100%;
+       height: 30%;
+       background-color:whitesmoke;
+       background-image: url('../images/1.png'); 
+       background-repeat: no-repeat; 
+       background-size: 100% 100%;
+}
+.title_holder{margin: 0 auto;
+             font-style: italic; 
+             font-weight: bolder;
+             color: white; font-size:
+                 30px; height: 70%;
+}
+.ul_holder{  height: 30%;
+}
+.ul_holder ul li a{text-decoration: none;
+                  color: red;
+}
+.ul_holder ul li{
+    display: inline-block;
+                padding: 10px;
+} 
+/*float: right;*/
+.ul_holder ul li:hover{
+    background-color:black;
+      color: white; 
+}
+.ul_holder ul li:hover a{
+    background-color:black;
+        color: white;
+}
+.section{width: 100%; 
+        height: 65%;
+}
+.nav{height: 95%; 
+    width: 25%;
+    float: left;
+    background-color: whitesmoke; 
+    border-top: 10px solid white;
+}
+.nav  li a{text-decoration: none; 
+          color: red; 
+          font-size: 20px;
+}
+.nav  li{display: block;
+        padding: 10px;
+} 
+/*float: right;*/
+.nav  li:hover{background-color:black; 
+      color: white; 
+}
+.nav  li:hover a{background-color:black;
+        color: white; 
+        font-size: 20px;
+}
+.nav table tr th{font-size: 20px; 
+                border-bottom: 1px
+                    dashed purple; 
+}
+.nav form table tr td input{color: red;
+                           width: 70%; 
+                           height:30px;
+                           margin-left: 40px;
+                           border-radius: .5em
+                               ;padding: 2px; 
+}
+.nav form table tr th input{background-color:lightcoral; 
+                           color: white;
+}
+.nav table tr td li{border-bottom: 1px dashed lightcoral;
+}
+.mid_section{float: right;
+            height: 100%;
+            width: 74%; 
+            overflow:auto;
+}
+.footer{width:100%;
+       height: 5%;
+       background-color:whitesmoke;
+       color:grey;
+       padding-top:3px;
+}
+.notifications{
+            text-shadow:none;
+            margin: 0 auto;  
+            height:56%;   
+            width:21%;  
+            bottom: 8%;   
+            right:72%;  
+            position: fixed;  
+            padding: 10px;
+            border-right: 1px dashed lightcoral;
+            visibility: visible;   
+            background-color:white;   
+            border-radius: 0.5em;   
+            box-shadow: -5px 5px 5px  dimgray;
+            overflow: auto;
+}
+.discus{
+/*    background-image: url('../images/forum_icon.png'); background-repeat: no-repeat; background-size: 70% 70%;*/
+    overflow: auto;
+    height: 90%;
+    width: 100%;
+}
+.edit_topic{
+            text-shadow:none;
+            margin: 0 auto;  
+            height:56%;   
+            width:21%;  
+            bottom: 8%;   
+            right:72%;  
+            position: fixed;  
+            padding: 10px;
+            border-right: 1px dashed lightcoral;
+            visibility: visible;   
+            background-color:white;   
+            border-radius: 0.5em;   
+            box-shadow: -5px 5px 5px  dimgray;
+            overflow: auto;
+}
+#hme{
+    color: red;
+    float: right;
+    margin-top: 0px;
+    margin-right: 150px; 
+    padding: 7px;
+    text-decoration: none;
+/*    background-color:black; 
+    border: 1px solid #666666;*/
+    font-size: 18px;
+}
+#logout{
+    color: red;
+    float: right;
+    margin-top: -55px;
+    margin-right: 30px; 
+/*    background-color:black;*/
+    border: 1px solid #666666; 
+    padding: 7px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 0.5em ;
+}
+#title{
+    opacity: 0.8;
+    border: 1px solid  #cccccc;
+    width: 30%;
+    background-color:lightgray;
+    color: black;
+    box-shadow: -10px 5px 5px #D3D3D3;
+    border-radius: 0.1em .3em .3em 0em;  
+}
+#home_logout{
+/*    opacity: 0.9;*/
+    width: 20%;
+    height: 49%;
+    color: white;
+    float: right;
+    margin-top: -57px;
+    margin-right: 3px; 
+    padding: 3px;
+    text-decoration: none;
+    background-color:lightgray; 
+    border-top: 1px dashed #666666;
+    box-shadow: -10px 10px 5px #D3D3D3;
+    border-radius: 1em .3em .5em 0em;
+}
+#home_logout a:hover{
+    background-color:black;
+        color: white; 
+        font-size: 18px;
+        padding: 7px;
+}
+#back{
+  float:left;
+    margin-top: 0px;
+    margin-right: 30px;  
+}
