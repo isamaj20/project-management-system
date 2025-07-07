@@ -8,7 +8,7 @@
 
 $host="localhost";
 $user="root";
-$password="adeyi";
-$dbName="projectmgt_system";
+$password="yourpassword";//leave blank if no password set
+$dbName="projectmgt_system";//or your db name
 $mysqli= new mysqli($host,$user,$password, $dbName);
 //mysqli_select_db($con,$dbName);
